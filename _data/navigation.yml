@@ -1,11 +1,20 @@
+# main links
 main:
-  - title: "Home"
-    url: /home/
   - title: "Command-Line"
     url: /command-line/
   - title: "Hacking"
     url: /hacking/
+  - title: "Python"
+    url: /python/ 
+    children:
+      - title: "Machine-Learning"
+        url: /machine-learning/
+
   - title: "Investing"
-    url: /investing/
+    url: /investing/    
   - title: "About"
     url: /about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
