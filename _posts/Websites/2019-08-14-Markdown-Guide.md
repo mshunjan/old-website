@@ -1,7 +1,7 @@
 ---
 title: "How to Use Markdown"
 date: 2019-08-14
-category: websites
+category: computerscience
 tags:
   - Markdown
   - Front-End Development

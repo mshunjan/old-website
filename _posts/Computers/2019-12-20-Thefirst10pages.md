@@ -1,0 +1,19 @@
+---
+title: "The Elements of Computing Systems - Introduction to the Topic"
+date: 2019-12-20
+category: computerscience
+tags:
+  - Summary
+---
+
+In 2005, Nisan and Schocken wrote quite the piece of literature on how a computer works. The basic ideas will be discussed over 13 posts (hopefully), in a series dubbed, "The Elements of Computing Systems" 
+
+# Why?
+
+If you're going to learn command-line or frankly any level of programming, you have to realize at some point that what you know is not enough. Long gone are the days when you had to understand the system from the ground up. That's not necessarily a bad thing, since the barrier to enter the tech field has greatly lowered. But it's a lot like driving a 70 Plymouth Roadrunner, but never taking it to the track. Sure you may know where to put the gas and how to make it go forward and reverse, but do you know how to push every bit of power out of that car? Have you *felt* the moment when your skill surpasses the knowledge of the average man. In anycase, if you want to take yourself to the next level, you have to understand how the engine works. And that's what we aim to do with this series.
+
+# What you'll learn
+
+There is much beyond just programming my children! This book goes over the hardware that makes computers work. The architecture that holds it together. The operating systems that allow us to manage the the hardware. The programming languages that use these things in tandem to make things happening. The compilers that take what we program and actually to those things we want to happen. Data structures and algorithms, for building our applications, and supplementary to that, software engineering. All in all, by the end of this book, you should be able to build a computer! We'll start with the hardware platform then work our way into typical software hierarchy. Of course the best way to learn something is to apply it! So, in the spirit of that, once this series has been completed, I will be adding personalized projects via Jupyter Notebooks, stylized after the projects suggested by Nisab abd Schocken. 
+
+![Diagram of What We'll Learn](/cyburp/mshunjan.github.io/assets/images/diagramoflearning.JPG)
