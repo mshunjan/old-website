@@ -1,16 +1,11 @@
 # main links
 main:
+  - title: "Blog"
+    url: /blog/ 
   - title: "Computer Science"
-    url: /computerscience/
-    subcategories:
-      - title: "Websites"
-        url: /websites/
-      - title: "Machine-Learning"
-        url: /machine-learning/
+    url: /computerscience/ 
   - title: "Investing"
-    url: /investing/    
-  - title: "Bioinformatics"
-    url: /bioinformatics/    
+    url: /investing/     
   - title: "About"
     url: /about/
   # - title: "Sample Posts"
