@@ -55,7 +55,7 @@ printf('hello, world\n');
 The above statement calls the function printf from our standard library and prints the given characters in the string/character stream. Why add the newline character `\n`? It 
 adds a newline, which if you work with the terminal directly and run the compiled executable, if absent, will print very weirdly. Here's a screenshot of what that would look like:
 
-<img src= "https://cyburp.com/mshunjan.github.io/assets/gifs/hello_world.gif" alt="hello_world" height="900" width="1400"/>
+<img src= "https://cyburp.com/mshunjan.github.io/assets/gifs/cropped_hello_world.gif" alt="hello_world" height="2000" width="1400"/>
 
 You might expect the first output if written in python, but this is because the print functions work differently between these two languages. `printf` does not supply a newline,
 thus the newline character is necessary. Finally, note the semicolon, which indicates the end of the statement.
