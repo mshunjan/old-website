@@ -142,6 +142,18 @@ int main()
 
 ```
 
+## The While Loop
+
+As in the name, the while loop works so that whatever is in the body, in this case our equation converting fahr to celsius, only occurs if our condition is true. In plain english, it's like this:
+
+```
+while thing is true {
+    do thing
+}
+``` 
+
+What if it's not true? In our case, what if fahr is not <= upper? Then our loop body does not occur. In other words it does not do "do thing"
+
 Now all that's left is to compile it and run the file and your output should look like this:
 
 <img src= "https://cyburp.com/mshunjan.github.io/assets/images/temp_table.jpg" alt="temp_table output" height="2000" width="1400"/>
