@@ -85,7 +85,7 @@ One last important thing to note is the type of the function. If you track back 
 How do we solve this question? Let's break it down into sections. First we'll store our temperature data into different variables, one for farenheit and one for celsius. Then, we'll need some way to apply our equation on a range of farnheit values. Since we want to produce values from 0 to 300, at intervals of 20, we can apply this to move through our system. Say we start at 0, we can apply our equation to spit out the equivalent celsius temperature. However to continue to the next interval, we need some way to keep track of where we are on our range. We can do this by stepping by our interval value after each temperature conversion.
 So first we'll need to declare variables  for farnheit and celsius, which we'll store wherever we are at in our table. Then we need variables for our starting and ending temps and our stepping value.
 
-```C
+``` c
 int main()
 {
     int fahr, celsius;
@@ -94,7 +94,7 @@ int main()
 ```
 Next we give those variables values of our lower and upper limits 
 
-```C
+``` c
 int main()
 {
     int fahr, celsius;
@@ -108,7 +108,7 @@ int main()
 ```
 Earlier we said we would utilize a while loop for our equation, so let's do that now. We'll have to keep iterating through our loop until we reach the upper limit, thus we have the line `while (fahr <=upper){}`. Then in our code block, we implement our equation and assign the value to our declared celsius variable. Then we want to print it to the console in the table format. We can use the function `printf()`, and use the formatting regex along with the special characters tab and newline to create this effect. Finally, to complete this function, we need to move our farenheit value to the next interval to continue our function. 
 
-```C 
+``` c
     fahr = lower;
     while (fahr <= upper) {
         celsius = 5 * (fahr-32) / 9;
@@ -118,7 +118,7 @@ Earlier we said we would utilize a while loop for our equation, so let's do that
 ```
 So here's what we have now:
 
-``` C
+``` c
 #include <stdio.h> 
 
 /* print temp table to console for range(301) */
