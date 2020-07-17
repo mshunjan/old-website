@@ -7,7 +7,6 @@ tags:
 ---
 
 # Hello World
-
 Ah yes, *Hello World*, the first program every novice programmer begins with. Really its a tradition, and it's purpose is simple. Show the programmer that you can instruct the computer to do things! But what's really going on here? 
 
 # Behind the kitchen doors

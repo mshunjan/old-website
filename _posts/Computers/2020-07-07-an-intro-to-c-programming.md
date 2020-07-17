@@ -5,7 +5,6 @@ category: computerscience
 ---
 
 # Preface
-
 As any seasoned programmer knows, there is always something more to learn. In my case, I felt like I did not truly understand the inner workings of the code that I wrote. Almost magical, pseudocode just does what I want it to in plain english. And if I don't understand, there's probably some forum out there with an answer. But I don't want to code like that any more. It's *time* to learn what's behind the curtains. And what better way to learn with one of the best lower-level languages: **C**. I will be basing these tutorials on The C Programming Language 2,
 by Kernighan and Ritchie. These guys not only made the C programming language, but also worked in the design of the Unix OS. If anyone knows what's going on, it's these guys.  
 

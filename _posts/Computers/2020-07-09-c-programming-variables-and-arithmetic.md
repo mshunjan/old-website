@@ -5,7 +5,6 @@ category:  computerscience
 ---
 
 # Recall
-
 In my previous [post](https://cyburp.com/computerscience/an-intro-to-c-programming/), I introduced C programming. We went over writing the "Hello World" program and the inner workings of how that program functioned. the TLDR version is that a C program consists of calling a library using `#include <x>`, writing a main function `main(){}` with statements and variables that perform the function you want. 
 
 # Variables and Arithmitec Expressions
