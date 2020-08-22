@@ -289,4 +289,6 @@ So our object property keys can be either string/symbol type (only these 2). Sym
 // Symbol(description)
 let mysym = Symbol("example id");
 ```
-You can't alert this value because it will atempt to convert the symbol to a string, which cannot occur in JS. Also note that you can't see this in the current release of node (v10). Why use symbols over strings? The unique identifier allows for us to have seperate
+You can't alert this value because it will atempt to convert the symbol to a string, which cannot occur in JS. Also note that you can't see this in the current release of node (v10). Why use symbols over strings? The unique identifier allows for us to have seperate. Note that if we want to use mysym in an object, we would need square brackets around the variable name, otherwise it would take in id as a string, not the symbol. Symbols are however skipped for for in loops, by design. For global symbols, rather than using `Symbol()`, we must use `Symbol.for();`. `Symbol.keyFor(sym);` returns the name by using the symbol. 
+
+The big thing you should take away abouts symbols is that we can use them to represent hidden object properties.

@@ -1,7 +1,7 @@
 ---
-layout: post
 title: The Web Developer's Roadmap
 date: 2020-08-07 16:21 -0400
+category: computer science
 ---
 # The road to knowing the web
 
